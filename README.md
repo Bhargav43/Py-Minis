@@ -93,7 +93,7 @@ exist = check_builtins('sys')
 search_builtins('sys, os, has')
 ```
 
-### Sample Output
+#### Sample Output
 
 ```
 >>> import PyBuiltinList
@@ -209,7 +209,7 @@ functionName()
 AnotherfunctionName()
 ```
 
-### Sample Output
+#### Sample Output
 
 The output of teh above calls are as follows
 ```
