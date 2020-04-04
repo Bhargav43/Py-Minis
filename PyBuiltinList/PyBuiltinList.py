@@ -15,7 +15,6 @@ def check_builtins(key):
 def search_builtins(string):
     #Searches for the list of modules, sent as string, in Python Built-in modules and prints Yes or No. Returns True if function runs successfully.
     [print(f'{key}: Yes') if check_builtins(key) else print(f'{key}: No') for key in string.replace(' ', '').split(',')]
-    return True
 
 def main():
     print_builtins()
